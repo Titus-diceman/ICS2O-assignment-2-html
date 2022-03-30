@@ -18,20 +18,3 @@ p {
   background-color: rgb(87 32 168);
 }
 
-table {
-  border: solid thin;
-}
-
-th {
-  height: 2rem;
-  background: rgb(137 96 196)
-  border: 1px solid black;
-  text-align: left;
-}
-
-td {
-  height: 2rem;
-  background: lightgray;
-  border: 1px solid black;
-  text-align: center;
-}
