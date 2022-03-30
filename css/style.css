@@ -1,0 +1,37 @@
+/* Created by: Ava Venturino
+ * Created on: March 23
+ * This CSS file defines the style for index.html ICS2O-Assignment-2-JS
+*/
+
+body {
+  background-color: rgb(14 8 79);
+}
+
+h1 {
+  background-color: rgb(70 15 140);
+  color: rgb(107 51 135);
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  background-color: rgb(87 32 168);
+}
+
+table {
+  border: solid thin;
+}
+
+th {
+  height: 2rem;
+  background: lightgray;
+  border: 1px solid black;
+  text-align: left;
+}
+
+td {
+  height: 2rem;
+  background: lightgray;
+  border: 1px solid black;
+  text-align: center;
+}

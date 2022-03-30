@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--ICS20-Unit-2-01-js-->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My first website, with JavaScript">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Ava Venturino">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-blue.min.css" />    
+    <title>Circumference of a circle</title>
+  </head>
+  <body>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class = "mdl-layout__header">
+        <div class = "mdl-layout__header-row">      
+          <center><span class = "mdl-layout-title">Circumference of a circle</span></center>
+        </div>
+      </header>
+      <main class = "mdl-layout__content">
+        <br>
+        <br>
+      <table>
+      <tr>
+        <th>Shape</th>
+        <th>Formula using Radius</th>
+        <th>Variables</th>
+      </tr>
+      <tr>
+        <td>Circle</td>
+        <td>P=C=2πr</td>
+        <td>r represents the radius</td>
+      </tr>
+    </table>
+        <br>
+        <br>
+        <br>
+        <img src="./images/circle-circumference-radius.png" alt="style" height="250" width="250">
+        <br>
+        <br>
+        <br>
+        <!-- Numeric Textfield -->
+        <form action="#">
+          <p>Radius</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="radius-of-circle">
+            <label class="mdl-textfield__label" for="radius-of-circle">Please enter the radius of circle</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <!-- Raised button with ripple -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="calculate ()">
+          Enter
+        </button>
+        <br>
+        <br>
+          <div id="circumference"></div>
+        </main>
+    </div>
+  </body>
+</html>
