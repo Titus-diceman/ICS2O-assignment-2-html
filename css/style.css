@@ -4,7 +4,7 @@
 */
 
 body {
-  background-color: rgb(14 8 79);
+  background-color: rgb(90 40 111);
 }
 
 h1 {
@@ -24,7 +24,7 @@ table {
 
 th {
   height: 2rem;
-  background: lightgray;
+  background: rgb(137 96 196)
   border: 1px solid black;
   text-align: left;
 }
