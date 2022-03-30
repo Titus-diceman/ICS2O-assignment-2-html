@@ -1,6 +1,4 @@
-// Copyright (c) 2022 Ava Venturino All rights reserved
-//
-// Created by: Ava Venturino
+// Created by: Titus diceman
 // Created on: Mar 2022
 // This file contains the JS functions for index.html
 
